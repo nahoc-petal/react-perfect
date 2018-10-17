@@ -1,8 +1,12 @@
 import * as React from 'react';
+import { Helmet } from 'react-helmet';
 
 export const About: React.StatelessComponent<{}> = () => {
   return (
     <div className="container">
+      <Helmet>
+        <title>About</title>
+      </Helmet>
       <section className="section">
       <h1 className="title">About</h1>
 
